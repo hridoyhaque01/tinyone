@@ -1,0 +1,307 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header start */
+  header {
+    padding: 10px 0;
+  }
+
+  .menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: var(--font-18);
+    text-align: right;
+  }
+
+  /* header end */
+
+  /* slider start */
+
+  .banner {
+    padding-bottom: 46px;
+  }
+
+  .slider-dots {
+    bottom: -55px;
+  }
+
+  .slider-dots [data-bs-target] {
+    width: 11px;
+    height: 11px;
+  }
+
+  .slider-content h1 {
+    font-size: 24px;
+  }
+
+  .slider-content h2 {
+    margin: 8px 0;
+    font-size: var(--font-18);
+  }
+
+  .slider-content p {
+    margin-bottom: 10px;
+  }
+
+  .slider-icons ul li i {
+    font-size: var(--font-20);
+  }
+
+  /* slider end */
+
+  /* features start */
+  .features {
+    padding: 40px 0 60px;
+  }
+
+  .sec-title {
+    margin-bottom: 10px;
+    font-size: var(--font-20);
+  }
+
+  .feat-para {
+    font-size: var(--font-16);
+
+    line-height: 23px;
+  }
+
+  .feat-item {
+    margin-top: 25px;
+  }
+
+  .feat-icon i {
+    font-size: var(--font-34);
+  }
+
+  .feat-text {
+    text-align: center;
+  }
+
+  .feat-text h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .feat-text p {
+    font-size: var(--font-16);
+    letter-spacing: 0;
+  }
+
+  /* features end */
+
+  /* contact start */
+
+  .contact {
+    padding: 40px 0 25px;
+  }
+
+  .contact-form {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+
+  .email-input {
+    padding: 5px 10px;
+    height: 40px;
+    font-size: var(--font-15);
+  }
+
+  .submit-btn {
+    height: 40px;
+  }
+
+  .social-icon ul li a i {
+    font-size: 30px;
+  }
+
+  /* contact end */
+
+  /* footer start */
+  footer {
+    padding-bottom: 20px;
+  }
+
+  .footer-text {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .footer-links {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* footer end */
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start */
+
+  .menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: var(--font-20);
+    text-align: right;
+  }
+
+  /* header end */
+
+  /* slider start */
+
+  .banner {
+    padding-bottom: 55px;
+  }
+
+  .slider-dots {
+    bottom: -55px;
+  }
+
+  .slider-dots [data-bs-target] {
+    width: 13px;
+    height: 13px;
+  }
+
+  .slider-content h1 {
+    font-size: var(--font-28);
+  }
+
+  .slider-content h2 {
+    margin: 10px 0;
+    font-size: var(--font-18);
+  }
+
+  .slider-content p {
+    margin-bottom: 20px;
+  }
+
+  .slider-icons ul li i {
+    font-size: var(--font-32);
+  }
+
+  /* slider end */
+
+  /* features start */
+  .features {
+    padding: 50px 0 70px;
+  }
+
+  .sec-title {
+    font-size: var(--font-32);
+  }
+
+  .feat-para {
+    font-size: var(--font-16);
+    line-height: 23px;
+  }
+
+  .feat-item {
+    margin-top: 30px;
+  }
+
+  .feat-icon i {
+    font-size: var(--font-42);
+  }
+
+  .feat-text {
+    text-align: center;
+  }
+
+  .feat-text h2 {
+    margin-bottom: 7px;
+    font-size: var(--font-22);
+  }
+
+  .feat-text p {
+    font-size: var(--font-16);
+    letter-spacing: 0;
+  }
+
+  /* features end */
+
+  /* contact start */
+
+  .contact {
+    padding: 50px 0;
+  }
+
+  .contact-form {
+    padding: 30px 0 55px;
+  }
+
+  .email-input {
+    padding: 10px 15px;
+    height: 45px;
+  }
+
+  .submit-btn {
+    height: 45px;
+  }
+
+  /* contact end */
+
+  /* footer start */
+
+  footer {
+    padding-bottom: 70px;
+  }
+
+  .footer-text {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  /* footer end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start */
+
+  .menu ul li a {
+    padding: 10px 0 0 !important;
+    text-align: right;
+  }
+
+  /* header end */
+
+  /* features start */
+
+  .features {
+    padding: 80px 0 100px;
+    padding-bottom: 100px;
+  }
+
+  .feat-item {
+    margin-top: 50px;
+  }
+
+  .feat-para {
+    font-size: var(--font-16);
+    line-height: 25px;
+  }
+
+  /* features end */
+
+  /* contact start */
+
+  .contact {
+    padding: 70px 0 80px;
+  }
+
+  .contact-form {
+    padding: 35px 0 60px;
+  }
+
+  /* contact end */
+
+  /* footer start */
+
+  footer {
+    padding-bottom: 100px;
+  }
+
+  /* footer end */
+}
