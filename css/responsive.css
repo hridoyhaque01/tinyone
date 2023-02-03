@@ -34,27 +34,31 @@
 
   .slider-content h2 {
     margin: 8px 0;
-    font-size: var(--font-18);
+    font-size: var(--font-20);
   }
 
   .slider-content p {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+  }
+
+  .slider-icons ul li {
+    margin-right: 18px !important;
   }
 
   .slider-icons ul li i {
-    font-size: var(--font-20);
+    font-size: var(--font-32);
   }
 
   /* slider end */
 
   /* features start */
   .features {
-    padding: 40px 0 60px;
+    padding: 50px 0 60px;
   }
 
   .sec-title {
     margin-bottom: 10px;
-    font-size: var(--font-20);
+    font-size: var(--font-24);
   }
 
   .feat-para {
@@ -67,8 +71,12 @@
     margin-top: 25px;
   }
 
+  .feat-icon {
+    margin-bottom: 10px;
+  }
+
   .feat-icon i {
-    font-size: var(--font-34);
+    font-size: var(--font-32);
   }
 
   .feat-text {
@@ -77,7 +85,7 @@
 
   .feat-text h2 {
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: var(--font-20);
   }
 
   .feat-text p {
@@ -90,7 +98,7 @@
   /* contact start */
 
   .contact {
-    padding: 40px 0 25px;
+    padding: 40px 0 60px;
   }
 
   .contact-form {
@@ -108,8 +116,12 @@
     height: 40px;
   }
 
+  .social-icon li {
+    margin-right: 13px !important;
+  }
+
   .social-icon ul li a i {
-    font-size: 30px;
+    font-size: var(--font-34);
   }
 
   /* contact end */
@@ -147,7 +159,7 @@
   /* slider start */
 
   .banner {
-    padding-bottom: 55px;
+    padding: 20px 0 55px;
   }
 
   .slider-dots {
@@ -172,8 +184,12 @@
     margin-bottom: 20px;
   }
 
+  .slider-icons ul li {
+    margin-right: 20px !important;
+  }
+
   .slider-icons ul li i {
-    font-size: var(--font-32);
+    font-size: var(--font-34);
   }
 
   /* slider end */
@@ -194,6 +210,10 @@
 
   .feat-item {
     margin-top: 30px;
+  }
+
+  .feat-icon {
+    margin-bottom: 15px;
   }
 
   .feat-icon i {
@@ -233,6 +253,14 @@
 
   .submit-btn {
     height: 45px;
+  }
+
+  .social-icon li {
+    margin-right: 18px !important;
+  }
+
+  .social-icon ul li a i {
+    font-size: var(--font-38);
   }
 
   /* contact end */
